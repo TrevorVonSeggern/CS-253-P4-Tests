@@ -2,7 +2,7 @@
 clear
 
 #Variables
-EXE=PA3
+EXE=PA4
 RESULTCODE=0
 EXPECTEDCODE=0
 LOGRESULT=0
@@ -41,7 +41,7 @@ do
 	touch tempDelete.log.txt
 	>tempDelete.log.txt
 
-	$EXE $FILENAME/input.txt $FILENAME/result.txt 2>tempDelete.log.txt
+	$EXE $FILENAME/input.txt $FILENAME/input2.txt $FILENAME/result.txt 2>tempDelete.log.txt
 
 	# result code handling...
 	RESULTCODE=$?														#put result code into a variable.
