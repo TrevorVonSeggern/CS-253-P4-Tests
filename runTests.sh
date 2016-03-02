@@ -20,6 +20,7 @@ cd ../src
 make buildTest
 cd ../test
 make
+clear
 
 #Testing the files
 echo ''
